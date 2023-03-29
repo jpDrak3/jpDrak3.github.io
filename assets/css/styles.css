@@ -1,0 +1,110 @@
+/* Comment Sections */
+.commentTextArea {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+.addComments {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.blogSection {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.commentHeader {
+    margin: 5px 0;
+    width: 150px;
+    height: 30px;
+    border: solid;
+    border-radius: 5px;
+    border-color: white;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.commentSection {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.commentTextBox {
+    display: block;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+}
+
+.deleteComment {
+    margin: 2px;
+    width: 75px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.likeComment {
+    margin: 2px;
+    width: 75px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.reply {
+    margin: 2px;
+    width: 75px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Bar Mods */
+.navbarJP {
+    margin-bottom: 3px;
+    background: var(--bs-navbar-disabled-color);
+}
+
+/* Main Page */
+
+.headingJP {
+    text-shadow: 1px 1px 6px rgb(0, 0, 0);
+    margin-top: 7px;
+    font-family: Lora, serif;
+    font-size: 23px;
+}
+
+.subheading {
+    padding: 4px;
+    font-size: 23px;
+    font-family: Cabin, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    height: 100%;
+}
+
+.resourceButton {
+    width: 60px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    background: rgba(66, 220, 163, 0);
+}
